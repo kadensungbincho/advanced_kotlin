@@ -21,7 +21,7 @@ open class Entity(val id: Int)
 
 fun main() {
 
-    val repo = Repository<CustomerEntity>()
+//    val repo = Repository<CustomerEntity>()
 }
 
 class CustomerEntity(id: Int) : Entity(id) {
